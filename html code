@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourish Singhal - Undergraduate at IIT Bombay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gourish Singhal</h1>
+        <p>Undergraduate at IIT Bombay</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am Gourish Singhal, an undergraduate student at IIT Bombay. I have a passion for technology, coding, and continuous learning. I am currently pursuing my degree in [Your Major].</p>
+    </section>
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li>Project 1: [Description]</li>
+            <li>Project 2: [Description]</li>
+            <li>Project 3: [Description]</li>
+        </ul>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact Information</h2>
+        <p>You can reach me at:</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+    </section>
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <p>Welcome to my blog! Here I share my thoughts on technology, coding, and other topics of interest.</p>
+        <p>Blog Post 1: <a href="#">Read more</a></p>
+        <p>Blog Post 2: <a href="#">Read more</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gourish Singhal</p>
+    </footer>
+</body>
+</html>
